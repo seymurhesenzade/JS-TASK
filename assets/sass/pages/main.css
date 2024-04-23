@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #DFDAEA;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.box {
+  width: 300px;
+  height: 300px;
+  margin-top: 160px;
+  background-color: #DFDAEA;
+  border: 2.5px solid black;
+  border-radius: 4px;
+}
+.box .fa-twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 80px;
+}
+.box h1 {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */

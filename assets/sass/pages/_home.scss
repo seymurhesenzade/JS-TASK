@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #dfdaea;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.box {
+  margin-left: 450px;
+  width: 300px;
+  height: 300px;
+  margin-top: 160px;
+  background-color: #dfdaea;
+  border: 2.5px solid black;
+  border-radius: 4px;
+
+  .fa-twitter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 80px;
+  }
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  p {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  #btn {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 30px;
+    font-weight: 55 0;
+    cursor: pointer;
+
+    &:hover {
+      color: black;
+      background-color: rgb(174, 96, 0);
+    }
+  }
+}
